@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {  
+        }
+
+        .logo img{
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li span{
+            padding: 0 5px;
+        }
+
+        h1{
+
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 10px;
+            text-transform: capitalize;
+            font-weight: normal;
+            margin-top: 150px;
+            font-size: 50px;
+        }
+
+
+        .review{
+
+            width: 100px;
+            height: 40px;
+            position: absolute;
+            border-radius: 10px;
+            right: 220px;
+            top: 225px;
+        }
+
+        .span{
+
+            font-weight: 900;
+        }
+
+        .para{
+
+            font-size: 30px;
+
+            text-align: center;
+            
+        }
+
+        .button{
+
+            /* display: flex; */
+            /* justify-content: center;
+            align-items: center;
+            text-align: center; */
+            text-transform: capitalize;
+            padding: 20px 30px 20px 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            background-color: rgba(6, 147, 227, 1);
+            color: white;
+            font-size: 20px;
+        cursor: pointer;
+        }
+
+        .grid-box{
+
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            position: absolute;
+            top: 650px;
+            gap: 50px;
+          
+        }
+
+        .box{
+
+            /* width: 50px;
+            height: 50px; */
+            /* background-color: rgba(128, 128, 128, 0.66); */
+            background-color: rgb(238, 238, 238);
+            text-align: center;
+            margin: 35px;
+            
+
+
+        }
+
+        .ue{
+
+            width:200px;
+            height: 200px;
+            position: absolute;
+            right: 1040px;
+            top: 470px;
+        }
+
+        .h3{
+
+            position: absolute;
+            /* display: flex; */
+         right: 700px;
+         margin-top: 50px;
+         font-size: 30px;
+         text-transform: capitalize;
+        }
+
+        .grid-button{
+
+            background-color: rgb(113, 206, 126);
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            color: whitesmoke;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        h4{
+
+            font-size: 30px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li><span>Pricing </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li><span>Resources </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li><span>About Us </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </li>
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>
+            Download <span class="span">ultraedit</span> for windows 
+        </h1>
+
+        <img src="review.png"  alt="not fund" class="review">
+
+        <p class="para">Download and try ultraedityou buy it!this Download includes the full windows <br>version of the text editor </p>
+
+       <center> <button class="button">Download mac or linux version</button></center>
+
+       <img src="ue.jpg" class="ue">
+       <h3 class="h3">Download ultraedit all version</h3>
+
+       <div class="grid-box">
+        <div class="box"><h4>English</h4>
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+           
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Deutsch</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Italiano</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Espanol</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>France</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Port</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Japan</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>China</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Korien</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+        <div class="box"><h4>Barazil</h4>
+
+            <!-- <button class="grid-button">Download 64-bits</button> -->
+            <a href="https://downloads.ultraedit.com/main/ue/win/ue_korean_64.exe" class="grid-button">Download 64-bits</a>
+            <p>SHA256</p>
+            <pre>55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7<br>5C3B0BA8612</pre>
+        </div>
+
+        
+       </div>
+    </main>
+</body>
+
+</html>
